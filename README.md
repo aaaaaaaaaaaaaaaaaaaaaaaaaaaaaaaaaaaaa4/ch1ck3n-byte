@@ -1,4 +1,4 @@
-### Hi there 👋
+ckn's website
 
 <!--
 **ch1ck3n-byte/ch1ck3n-byte** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
