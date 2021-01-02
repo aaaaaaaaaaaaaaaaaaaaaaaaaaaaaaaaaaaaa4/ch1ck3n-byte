@@ -3,4 +3,4 @@ Behold to the wonderful world of me! ckn! I am a person, who likes coding! i cur
 
 
 
-![ch1ck3n's github stats](https://github-readme-stats.vercel.app/api?username=ch1ck3n-byte&theme=synthwave)
+![ch1ck3n's github stats](https://github-readme-stats.vercel.app/api?username=ch1ck3n-byte&theme=gradient)
