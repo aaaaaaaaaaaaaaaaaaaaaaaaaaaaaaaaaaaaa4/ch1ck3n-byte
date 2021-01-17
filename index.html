@@ -1,10 +1,241 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <title></title>
-  </head>
-<body>
-<h1>hi</h1>
+<!doctype html>
+<html lang="en">
 
-<body>
-</html
+<head>
+	<meta charset="utf-8">
+	<title>Homepage -- ch1ck3n</title>
+	<meta http-equiv="default-style" content="default stylesheet title" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="http-equiv" content="X-Robots-Tag : noindex, follow" />
+	<meta name="application-name" content="ch1ck3n.com homepage" />
+	<meta name="author" content="Landon fox / ch1ck3n" />
+	<meta name="description" content="ch1ck3n homepage V.4" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		h1 {
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		h3 {
+			text-align: center;
+		}
+
+		#casecounter {
+			width: 100px;
+			border: 5px solid;
+		}
+	</style>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://ch1ck3n.com/ch1ck3n.css">
+<link href='https://fonts.googleapis.com/css?family=Raleway:600,700,400' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+</script>
+<link href='https://fonts.googleapis.com/css?family=Raleway:600,700,400' rel='stylesheet' type='text/css'>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js">
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css" id="theme-styles">
+<script
+ src='https://analytics.dupl.repl.co/analytics.js' show>
+</script>
+<canvas id="canvas">This browser does not support canvas.</canvas>
+<div class="snowflakes" aria-hidden="true">
+	<div class="snowflake">
+		❅
+	</div>
+	<div class="snowflake">
+		❆
+	</div>
+	<div class="snowflake">
+		❅
+	</div>
+	<div class="snowflake">
+		❆
+	</div>
+	<div class="snowflake">
+		❅
+	</div>
+	<div class="snowflake">
+		❆
+	</div>
+	<div class="snowflake">
+		❅
+	</div>
+	<div class="snowflake">
+		❆
+	</div>
+	<div class="snowflake">
+		❅
+	</div>
+	<div class="snowflake">
+		❆
+	</div>
+	<div class="snowflake">
+		❅
+	</div>
+	<div class="snowflake">
+		❆
+	</div>
+</div>
+<div class="container" style="display:none">
+	<h1 class="title">2021</h1>
+
+	<!-- countdown element -->
+	<div id="countdown-box" class="cdb" style="display:none">
+		<div class="cdi">
+			<span id="d">0</span>
+		<div id="d-lbl" class="cdi-lbl">DAYS</div>
+	</div>
+	<div class="cdi">
+		<span id="h">0</span>
+		<div id="h-lbl" class="cdi-lbl">HOURS</div>
+	</div>
+	<div class="cdi">
+		<span id="m">0</span>
+		<div id="m-lbl" class="cdi-lbl">MINUTES</div>
+	</div>
+	<div class="cdi">
+		<span id="s">0</span>
+		<div id="s-lbl" class="cdi-lbl">SECONDS</div>
+	</div>
+</div>
+</div><nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="https://ch1ck3n.com"><span style="color:red">CH</span><span style="color:#FFFF00">1</span><span style="color:green">CK</span><span style="color:#FFFF00">3</span><span style="color:blue">N</span><span style="color:pink">.COM</span></a>
+  <button data-ccursor class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Links </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="https://ch1ck3n.com/About/">About the creators</a> <a class="dropdown-item" href="https://ch1ck3n.com/games/">Games</a> <a class="dropdown-item" href="https://ch1ck3n.com/contact/">Contact</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://ch1ck3n.com/Galaxy-Mercury-BETA/">GalaxyOS Mercury BETA</a> <a class="dropdown-item" href="https://ch1ck3n.com/login/">Log in</a> <a class="dropdown-item" href="https://ch1ck3n.com/signup/">Sign up</a> <a class="dropdown-item" href="https://ch1ck3n.com/Blog/">Blog</a>
+          <div class="dropdown-divider"></div>
+          <button data-ccursor type="button" onCLick="location.reload();" class="btn btn-outline-primary dropdown-item"> Check for updates (Reload)
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bootstrap-reboot" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M1.161 8a6.84 6.84 0 1 0 6.842-6.84.58.58 0 0 1 0-1.16 8 8 0 1 1-6.556 3.412l-.663-.577a.58.58 0 0 1 .227-.997l2.52-.69a.58.58 0 0 1 .728.633l-.332 2.592a.58.58 0 0 1-.956.364l-.643-.56A6.812 6.812 0 0 0 1.16 8zm5.48-.079V5.277h1.57c.881 0 1.416.499 1.416 1.32 0 .84-.504 1.324-1.386 1.324h-1.6zm0 3.75V8.843h1.57l1.498 2.828h1.314L9.377 8.665c.897-.3 1.427-1.106 1.427-2.1 0-1.37-.943-2.246-2.456-2.246H5.5v7.352h1.141z"/>
+          </svg>
+          </button>
+          <a href="https://ch1ck3n.com/stats/" class="dropdown-item">Stats for nerds</a></div>
+      </li>
+      <li class="nav-item"> <a class="nav-link" href="https://ch1ck3n.com/Galaxy-Mercury-BETA/">GalaxyOS Mercury BETA</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="https://ch1ck3n.com/games/">Games</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="https://ch1ck3n.com/Blog/updates/">News & Updates</a> </li>
+    </ul>
+    <form method="post" class="form-inline my-2 my-lg-0" action="https://ch1ck3n.com/search/">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q">
+      <button data-ccursor class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<ul class="lightrope">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<br><Br>
+<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+<!--
+<center>
+  <div class="alert alert-danger"><strong>Important!</strong> Due to a very, VERY serious bug, All of the accounts has been (accidentally) removed from the database. Please sign up again <a href="https://ch1ck3n.com/signup/">here.</a></div>
+</center>
+-->
+<audio src="https://ch1ck3n.com/Minecraft.mp3" style="display:none" id="audio" loop></audio>
+<center>
+  </center>
+<body class="sky" onload="showAnalytics()">
+    <script src='https://analytics.dupl.repl.co/analytics.js' show></script>
+<!-- What are you doing here, stocker? -->
+<center>
+      <button type="button" id="themodalbutton" style="display:none;"class="btn btn-primary" data-toggle="modal" data-target="#gotsick">
+  </button>
+  <div class="modal fade" id="gotsick">
+    <div class="modal-dialog" style="color:black;">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color:black;">B0mch1buck3nV1rus! (Bacvid-20)</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" style="color:black">
+         Congratulations, you caught B0mch1buck3nV1rus! (Bacvid-20) Don't worry it has no negative effects, its just for fun. Want to fight Coronavirus? Why not try <a href="https://eternagame.org/">Eterna</a>?
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <h1 class="rainbow rainbow_text_animated">And now... Welcome to ch1ck3n.com -- The heart of all things by ch1ck3n! </h1>
+  <hr>
+  <h2>In development: <a href="https://ch1ck3n.com/games">Games</a><br>
+    Get news and updates <a href="/Blog/updates/">at the updates blog</a> <br>
+    Also in development: <a href="https://ch1ck3n.com/Galaxy-Mercury-BETA/"> GalaxyOS Mercury</a> (Currently in BETA)</h2>
+  <hr>
+  <h3>Cases:
+    <center>
+      <div id="casecounter"><strong>
+        5194        </strong></div>
+    </center>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWhat" aria-expanded="false" aria-controls="collapseWhat"> What are cases? </button>
+    <div class="collapse" id="collapseWhat">
+      <div class="card card-body" style="color:black;"> Cases is the number of people who have visited this webpage! <br> Here is a counter starting from christmas day: <div id='analytics'></div>
+    </div>
+  </h3>
+</div>
+</center>
+</body>
+</html>
